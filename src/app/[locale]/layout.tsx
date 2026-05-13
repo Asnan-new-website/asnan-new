@@ -90,7 +90,7 @@ export default async function RootLayout({
         `}} />
       </head>
       <body dir={isAr ? "rtl" : "ltr"}>
-        <Header locale={locale} />
+        <Header />
         {children}
         <Footer locale={locale} />
         {/* Scripts */}
